@@ -197,9 +197,13 @@ Este proyecto está en fase de documentación. Las contribuciones son bienvenida
    powershell -ExecutionPolicy Bypass -File "Moira-Reservations-Docs/00-governance/validate-documentation.ps1"
    ```
 
+## 👥 Equipo
+
+Somos un equipo de **2 desarrolladores** construyendo Moira Reservations con enfoque en producción desde el día uno.
+
 ## 📄 Licencia
 
-MIT — Proyecto académico y de aprendizaje.
+Todos los derechos reservados.
 
 ---
 
