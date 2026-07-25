@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>SaaS multitenant para gestión de reservas</strong><br>
-  Centralizá agenda, turnos, recordatorios y lista de espera para<br>
+  Centraliza agenda, turnos, recordatorios y lista de espera para<br>
   peluquerías, clínicas estéticas, barberías, centros médicos y cualquier<br>
   negocio con profesionales o recursos reservables.
 </p>
@@ -17,13 +17,13 @@
 
 ## 🚀 El problema
 
-Los negocios chicos gestionan reservas con **WhatsApp, agendas de papel o Excel**. Esto genera:
+Los pequeños negocios gestionan reservas con **WhatsApp, agendas de papel o Excel**. Esto genera:
 
 | ❌ Problema | Impacto |
 |------------|---------|
 | **Dobles turnos** | Dos clientes citados a la misma hora con el mismo profesional |
 | **Cancelaciones de último momento** | Horarios perdidos que no se recuperan |
-| **No-shows** | Clientes que no vienen y no avisan |
+| **No-shows** | Clientes que no asisten y no avisan |
 | **Baja ocupación** | Horarios desaprovechados por mala gestión |
 | **Agenda dispersa** | Cada profesional maneja su agenda por separado |
 
@@ -64,7 +64,7 @@ Los negocios chicos gestionan reservas con **WhatsApp, agendas de papel o Excel*
 ├── 📁 09-operations/                      # ⚪ Fase 09 — Operaciones
 └── 📄 README.md                           # Este archivo
 
-> 📖 Explorá el [índice completo del sistema documental](Moira-Reservations-Docs/README.md)
+> 📖 Explora el [índice completo del sistema documental](Moira-Reservations-Docs/README.md)
 ```
 
 ## 📊 Estado del proyecto
@@ -86,83 +86,83 @@ Los negocios chicos gestionan reservas con **WhatsApp, agendas de papel o Excel*
 
 ## 🗺️ Roadmap
 
-### Fase 01 — Business Discovery & Analysis ✅ (Completada)
+### Fase 01 — Business Discovery & Analysis ✅ Completada
 
-| Hito | Fecha | Estado |
-|------|-------|--------|
-| Documentos de gobierno | Jul 2026 | ✅ |
-| Visión de producto y Lean Canvas | Jul 2026 | ✅ |
-| Stakeholders y descubrimiento | Jul 2026 | ✅ |
-| Glosario, procesos y reglas de negocio | Jul 2026 | ✅ |
-| Supuestos, riesgos y domain overview | Jul 2026 | ✅ |
-| Instrumentos de validación | Jul 2026 | ✅ |
-| **Pendiente:** Ejecutar entrevistas EV-PLAN | Jul-Ago 2026 | ⏳ |
+| Hito | Estado |
+|------|--------|
+| Documentos de gobierno | ✅ |
+| Visión de producto y Lean Canvas | ✅ |
+| Stakeholders y descubrimiento | ✅ |
+| Glosario, procesos y reglas de negocio | ✅ |
+| Supuestos, riesgos y domain overview | ✅ |
+| Instrumentos de validación | ✅ |
+| Ejecución de entrevistas de validación (EV-PLAN) | ⏳ Pendiente |
 
-### Fase 02 — Requirements Engineering 🟡 (Plan listo — Jul-Ago 2026)
+### Fase 02 — Requirements Engineering 🟡 Plan listo
 
-| Hito | Fecha estimada | Depende de |
-|------|---------------|------------|
-| Metodología de requisitos | Jul 2026 | — |
-| Catálogo RF (75 requisitos funcionales) | Jul-Ago 2026 | Fase 01 |
-| Catálogo RNF (23 requisitos no funcionales) | Jul-Ago 2026 | Fase 01 |
-| Casos de uso (10 CU) | Jul-Ago 2026 | RF |
-| Historias de usuario con criterios GWT | Ago 2026 | CU |
-| Matriz de trazabilidad (RTM) | Ago 2026 | RF + CU + HU |
-| Validación con stakeholders | Ago 2026 | Entrevistas EV-PLAN |
+| Hito | Depende de |
+|------|------------|
+| Metodología de requisitos | — |
+| Catálogo RF (75 requisitos funcionales) | Fase 01 |
+| Catálogo RNF (23 requisitos no funcionales) | Fase 01 |
+| Casos de uso (10 CU) | RF |
+| Historias de usuario con criterios GWT | CU |
+| Matriz de trazabilidad (RTM) | RF + CU + HU |
+| Validación con stakeholders | Entrevistas EV-PLAN |
 
-### Fase 03 — Software Design (SDD) ⚪ (Ago-Sep 2026)
+### Fase 03 — Software Design (SDD) ⚪ Pendiente
 
-| Hito | Fecha estimada | Depende de |
-|------|---------------|------------|
-| Diagramas C4 (Contexto, Contenedores, Componentes, Código) | Ago 2026 | Fase 02 |
-| Modelo de dominio UML | Ago 2026 | Fase 02 |
-| Modelo de datos (DER) | Ago-Sep 2026 | Modelo de dominio |
-| Especificación API REST (OpenAPI) | Sep 2026 | SDD |
-| Decisiones arquitectónicas (ADRs) | Sep 2026 | SDD |
+| Hito | Depende de |
+|------|------------|
+| Diagramas C4 (Contexto, Contenedores, Componentes, Código) | Fase 02 |
+| Modelo de dominio UML | Fase 02 |
+| Modelo de datos (DER) | Modelo de dominio |
+| Especificación API REST (OpenAPI) | SDD |
+| Decisiones arquitectónicas (ADRs) | SDD |
 
-### Fase 04 — Arquitectura ⚪ (Sep 2026)
+### Fase 04 — Arquitectura ⚪ Pendiente
 
-| Hito | Fecha estimada | Depende de |
-|------|---------------|------------|
-| Arquitectura lógica y física | Sep 2026 | SDD |
-| Estrategia de seguridad (STRIDE) | Sep 2026 | SDD |
-| Modelo de multitenencia | Sep 2026 | SDD |
-| Estrategia de escalabilidad | Sep 2026 | SDD |
+| Hito | Depende de |
+|------|------------|
+| Arquitectura lógica y física | SDD |
+| Estrategia de seguridad (STRIDE) | SDD |
+| Modelo de multitenencia | SDD |
+| Estrategia de escalabilidad | SDD |
 
-### Fase 05 — ADRs ⚪ (Sep-Oct 2026)
+### Fase 05 — ADRs ⚪ Pendiente
 
-Registro de todas las decisiones arquitectónicas significativas tomadas durante el diseño.
+Registro de todas las decisiones arquitectónicas significativas.
 
-### Fase 06 — Testing ⚪ (Oct 2026)
+### Fase 06 — Testing ⚪ Pendiente
 
-| Hito | Fecha estimada |
-|------|---------------|
-| Estrategia de pruebas | Oct 2026 |
-| Plan de pruebas funcionales | Oct 2026 |
-| Plan de pruebas de carga | Oct 2026 |
+| Hito |
+|------|
+| Estrategia de pruebas |
+| Plan de pruebas funcionales |
+| Plan de pruebas de carga |
 
-### Fase 07 — DevOps ⚪ (Oct-Nov 2026)
+### Fase 07 — DevOps ⚪ Pendiente
 
-| Hito | Fecha estimada |
-|------|---------------|
-| Pipeline CI/CD (GitHub Actions) | Oct 2026 |
-| Dockerización | Oct-Nov 2026 |
-| Manual de despliegue | Nov 2026 |
+| Hito |
+|------|
+| Pipeline CI/CD (GitHub Actions) |
+| Dockerización |
+| Manual de despliegue |
 
-### Fase 08 — Project Management ⚪ (Nov 2026)
+### Fase 08 — Project Management ⚪ Pendiente
 
-| Hito | Fecha estimada |
-|------|---------------|
-| Backlog Scrum y MoSCoW | Nov 2026 |
-| Convenciones de Git y Definition of Done | Nov 2026 |
+| Hito |
+|------|
+| Backlog Scrum y MoSCoW |
+| Convenciones de Git y Definition of Done |
 
-### Fase 09 — Operaciones ⚪ (Dic 2026)
+### Fase 09 — Operaciones ⚪ Pendiente
 
-| Hito | Fecha estimada |
-|------|---------------|
-| Infraestructura y monitoreo | Dic 2026 |
-| Plan de recuperación y backups | Dic 2026 |
-| Estrategia de crecimiento | Dic 2026 |
+| Hito |
+|------|
+| Infraestructura y monitoreo |
+| Plan de recuperación y backups |
+| Estrategia de crecimiento |
 
 ---
 
@@ -190,9 +190,9 @@ Documentación    → Markdown + Mermaid + PlantUML
 
 Este proyecto está en fase de documentación. Las contribuciones son bienvenidas.
 
-1. Revisá los [documentos de gobierno](Moira-Reservations-Docs/00-governance/)
-2. Seguí el [proceso de revisión](Moira-Reservations-Docs/00-governance/Review-Process.md)
-3. Ejecutá el validador antes de abrir un PR:
+1. Revisa los [documentos de gobierno](Moira-Reservations-Docs/00-governance/)
+2. Sigue el [proceso de revisión](Moira-Reservations-Docs/00-governance/Review-Process.md)
+3. Ejecuta el validador antes de abrir un PR:
    ```powershell
    powershell -ExecutionPolicy Bypass -File "Moira-Reservations-Docs/00-governance/validate-documentation.ps1"
    ```
@@ -204,5 +204,5 @@ MIT — Proyecto académico y de aprendizaje.
 ---
 
 <p align="center">
-  <sub>Hecho con ❤️ para los negocios de barrio que merecen una gestión de turnos profesional.</sub>
+  <sub>Hecho con ❤️ para pequeños negocios que merecen una gestión de turnos profesional.</sub>
 </p>
