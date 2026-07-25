@@ -24,7 +24,7 @@ Los negocios chicos gestionan reservas con **WhatsApp, agendas de papel o Excel*
 | **Dobles turnos** | Dos clientes citados a la misma hora con el mismo profesional |
 | **Cancelaciones de último momento** | Horarios perdidos que no se recuperan |
 | **No-shows** | Clientes que no vienen y no avisan |
-| **Baja ocupación** | Horarios al pedo por mala gestión |
+| **Baja ocupación** | Horarios desaprovechados por mala gestión |
 | **Agenda dispersa** | Cada profesional maneja su agenda por separado |
 
 ## 🎯 La solución
