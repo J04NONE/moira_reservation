@@ -35,7 +35,7 @@ Los pequeños negocios gestionan reservas con **WhatsApp, agendas físicas o Exc
 |--------------|-------------|
 | 📅 **Agenda centralizada** | Vista unificada de todos los profesionales y sucursales |
 | 🔄 **Reservas y cambios** | Creación, reprogramación y cancelación con validación de disponibilidad en tiempo real |
-| 📋 **Lista de espera inteligente** | Recuperación automática de franjas liberadas por cancelación |
+| ⏳ **Lista de espera inteligente** | Recuperación automática de franjas liberadas por cancelación |
 | 🔔 **Notificaciones multicanal** | Confirmaciones, recordatorios y alertas por WhatsApp, Telegram, correo o SMS |
 | 👥 **Roles y permisos** | Superadministrador, administrador, recepcionista, profesional y cliente |
 | 🏢 **Multitenencia** | Aislamiento completo entre organizaciones en una misma instancia |
@@ -54,10 +54,12 @@ Los pequeños negocios gestionan reservas con **WhatsApp, agendas físicas o Exc
 │   ├── Reglas de negocio (BR-001 a BR-013)
 │   ├── Supuestos y riesgos
 │   └── Instrumentos de validación
-├── 📁 02-requirements/         # 🟡 Fase 2 — Requirements Engineering (SRS)
-├── 📁 03-software-design/      # ⚪ Fase 3 — SDD (en planificación)
-├── 📁 ...                      # Fases 4-9 (futuro)
-└── README.md                   # Este archivo
+├── 📁 02-requirements-engineering/  # 🟡 Fase 02 — Requirements Engineering (SRS)
+├── 📁 03-software-design/           # ⚪ Fase 03 — SDD (en planificación)
+├── 📁 ...                           # Fases 04-09 (futuro)
+└── 📄 README.md                     # Este archivo
+
+> 📖 Explorar el [índice completo del sistema documental](Moira-Reservations-Docs/README.md)
 ```
 
 ## 📊 Estado del proyecto
@@ -65,15 +67,16 @@ Los pequeños negocios gestionan reservas con **WhatsApp, agendas físicas o Exc
 | Fase | Estado | Archivos | PR |
 |------|--------|----------|----|
 | 00 — Gobernanza documental | ✅ Completado | 7 | [#1](https://github.com/J04NONE/moira_reservation/pull/1) |
-| 01 — Business Discovery & Analysis | ✅ Completado | 13 | [#1](https://github.com/J04NONE/moira_reservation/pull/1) |
-| 02 — Requirements Engineering (SRS) | 🟡 Plan listo | — | Pendiente |
-| 03 — Software Design (SDD) | ⚪ No iniciado | — | — |
-| 04 — Architecture | ⚪ No iniciado | — | — |
-| 05 — ADRs | ⚪ No iniciado | — | — |
-| 06 — Testing | ⚪ No iniciado | — | — |
-| 07 — DevOps | ⚪ No iniciado | — | — |
-| 08 — Project Management | ⚪ No iniciado | — | — |
-| 09 — Operations | ⚪ No iniciado | — | — |
+| Fase 00 — Gobernanza documental | ✅ Completado | 7 | [#1](https://github.com/J04NONE/moira_reservation/pull/1) |
+| Fase 01 — Business Discovery & Analysis | ✅ Completado | 13 | [#1](https://github.com/J04NONE/moira_reservation/pull/1) |
+| Fase 02 — Requirements Engineering (SRS) | 🟡 Plan listo | — | Pendiente |
+| Fase 03 — Software Design (SDD) | ⚪ No iniciado | — | — |
+| Fase 04 — Architecture | ⚪ No iniciado | — | — |
+| Fase 05 — ADRs | ⚪ No iniciado | — | — |
+| Fase 06 — Testing | ⚪ No iniciado | — | — |
+| Fase 07 — DevOps | ⚪ No iniciado | — | — |
+| Fase 08 — Project Management | ⚪ No iniciado | — | — |
+| Fase 09 — Operations | ⚪ No iniciado | — | — |
 
 ## 🔧 Stack objetivo
 
