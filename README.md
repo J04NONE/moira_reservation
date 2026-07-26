@@ -1,8 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Estado-En%20desarrollo-yellow" alt="Estado">
   <img src="https://img.shields.io/badge/Fase-Discovery%20%26%20Analysis-blue" alt="Fase">
-  <img src="https://img.shields.io/badge/Licencia-MIT-green" alt="Licencia">
-</p>
 
 <h1 align="center">🍃 Moira Reservations</h1>
 
